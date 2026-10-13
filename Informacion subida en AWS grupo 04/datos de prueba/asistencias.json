@@ -1,0 +1,1108 @@
+{
+  "Asistencias": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T001#2026-10-01"
+          },
+          "trabajadorId": {
+            "S": "T001"
+          },
+          "fecha": {
+            "S": "2026-10-01"
+          },
+          "trabajadorNombre": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:54"
+          },
+          "horaSalida": {
+            "S": "17:03"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "549"
+          },
+          "registradoEn": {
+            "S": "2026-10-01T07:54:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T001#2026-10-02"
+          },
+          "trabajadorId": {
+            "S": "T001"
+          },
+          "fecha": {
+            "S": "2026-10-02"
+          },
+          "trabajadorNombre": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "08:15"
+          },
+          "horaSalida": {
+            "S": "17:05"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "TARDANZA"
+          },
+          "minutosTardanza": {
+            "N": "15"
+          },
+          "minutosTrabajados": {
+            "N": "530"
+          },
+          "registradoEn": {
+            "S": "2026-10-02T08:15:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T001#2026-10-05"
+          },
+          "trabajadorId": {
+            "S": "T001"
+          },
+          "fecha": {
+            "S": "2026-10-05"
+          },
+          "trabajadorNombre": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:50"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "550"
+          },
+          "registradoEn": {
+            "S": "2026-10-05T07:50:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T001#2026-10-06"
+          },
+          "trabajadorId": {
+            "S": "T001"
+          },
+          "fecha": {
+            "S": "2026-10-06"
+          },
+          "trabajadorNombre": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:58"
+          },
+          "horaSalida": {
+            "S": "17:02"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "544"
+          },
+          "registradoEn": {
+            "S": "2026-10-06T07:58:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T001#2026-10-08"
+          },
+          "trabajadorId": {
+            "S": "T001"
+          },
+          "fecha": {
+            "S": "2026-10-08"
+          },
+          "trabajadorNombre": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "08:12"
+          },
+          "horaSalida": {
+            "S": "17:10"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "TARDANZA"
+          },
+          "minutosTardanza": {
+            "N": "12"
+          },
+          "minutosTrabajados": {
+            "N": "538"
+          },
+          "registradoEn": {
+            "S": "2026-10-08T08:12:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T001#2026-10-09"
+          },
+          "trabajadorId": {
+            "S": "T001"
+          },
+          "fecha": {
+            "S": "2026-10-09"
+          },
+          "trabajadorNombre": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:55"
+          },
+          "horaSalida": {
+            "S": "17:01"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "546"
+          },
+          "registradoEn": {
+            "S": "2026-10-09T07:55:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T001#2026-10-10"
+          },
+          "trabajadorId": {
+            "S": "T001"
+          },
+          "fecha": {
+            "S": "2026-10-10"
+          },
+          "trabajadorNombre": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:57"
+          },
+          "horaSalida": {
+            "S": "13:02"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "13:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "305"
+          },
+          "registradoEn": {
+            "S": "2026-10-10T07:57:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002#2026-10-01"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "fecha": {
+            "S": "2026-10-01"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:52"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "548"
+          },
+          "registradoEn": {
+            "S": "2026-10-01T07:52:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002#2026-10-02"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "fecha": {
+            "S": "2026-10-02"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:52"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "548"
+          },
+          "registradoEn": {
+            "S": "2026-10-02T07:52:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002#2026-10-03"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "fecha": {
+            "S": "2026-10-03"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:52"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "13:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "548"
+          },
+          "registradoEn": {
+            "S": "2026-10-03T07:52:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002#2026-10-05"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "fecha": {
+            "S": "2026-10-05"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:52"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "548"
+          },
+          "registradoEn": {
+            "S": "2026-10-05T07:52:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002#2026-10-06"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "fecha": {
+            "S": "2026-10-06"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "08:22"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "TARDANZA"
+          },
+          "minutosTardanza": {
+            "N": "22"
+          },
+          "minutosTrabajados": {
+            "N": "518"
+          },
+          "registradoEn": {
+            "S": "2026-10-06T08:22:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002#2026-10-07"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "fecha": {
+            "S": "2026-10-07"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:52"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "548"
+          },
+          "registradoEn": {
+            "S": "2026-10-07T07:52:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002#2026-10-08"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "fecha": {
+            "S": "2026-10-08"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:52"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "548"
+          },
+          "registradoEn": {
+            "S": "2026-10-08T07:52:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002#2026-10-09"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "fecha": {
+            "S": "2026-10-09"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:52"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "17:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "548"
+          },
+          "registradoEn": {
+            "S": "2026-10-09T07:52:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002#2026-10-10"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "fecha": {
+            "S": "2026-10-10"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "horaIngreso": {
+            "S": "07:59"
+          },
+          "horaSalida": {
+            "S": "13:00"
+          },
+          "horarioIngreso": {
+            "S": "08:00"
+          },
+          "horarioSalida": {
+            "S": "13:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "301"
+          },
+          "registradoEn": {
+            "S": "2026-10-10T07:59:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T003#2026-10-01"
+          },
+          "trabajadorId": {
+            "S": "T003"
+          },
+          "fecha": {
+            "S": "2026-10-01"
+          },
+          "trabajadorNombre": {
+            "S": "María Fernanda Quispe Huamán"
+          },
+          "area": {
+            "S": "Comercialización"
+          },
+          "sede": {
+            "S": "Oficinas Administrativas San Isidro"
+          },
+          "horaIngreso": {
+            "S": "08:55"
+          },
+          "horaSalida": {
+            "S": "18:01"
+          },
+          "horarioIngreso": {
+            "S": "09:00"
+          },
+          "horarioSalida": {
+            "S": "18:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "546"
+          },
+          "registradoEn": {
+            "S": "2026-10-01T08:55:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T003#2026-10-02"
+          },
+          "trabajadorId": {
+            "S": "T003"
+          },
+          "fecha": {
+            "S": "2026-10-02"
+          },
+          "trabajadorNombre": {
+            "S": "María Fernanda Quispe Huamán"
+          },
+          "area": {
+            "S": "Comercialización"
+          },
+          "sede": {
+            "S": "Oficinas Administrativas San Isidro"
+          },
+          "horaIngreso": {
+            "S": "08:55"
+          },
+          "horaSalida": {
+            "S": "18:01"
+          },
+          "horarioIngreso": {
+            "S": "09:00"
+          },
+          "horarioSalida": {
+            "S": "18:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "546"
+          },
+          "registradoEn": {
+            "S": "2026-10-02T08:55:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T003#2026-10-05"
+          },
+          "trabajadorId": {
+            "S": "T003"
+          },
+          "fecha": {
+            "S": "2026-10-05"
+          },
+          "trabajadorNombre": {
+            "S": "María Fernanda Quispe Huamán"
+          },
+          "area": {
+            "S": "Comercialización"
+          },
+          "sede": {
+            "S": "Oficinas Administrativas San Isidro"
+          },
+          "horaIngreso": {
+            "S": "09:05"
+          },
+          "horaSalida": {
+            "S": "18:01"
+          },
+          "horarioIngreso": {
+            "S": "09:00"
+          },
+          "horarioSalida": {
+            "S": "18:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "536"
+          },
+          "registradoEn": {
+            "S": "2026-10-05T09:05:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T003#2026-10-06"
+          },
+          "trabajadorId": {
+            "S": "T003"
+          },
+          "fecha": {
+            "S": "2026-10-06"
+          },
+          "trabajadorNombre": {
+            "S": "María Fernanda Quispe Huamán"
+          },
+          "area": {
+            "S": "Comercialización"
+          },
+          "sede": {
+            "S": "Oficinas Administrativas San Isidro"
+          },
+          "horaIngreso": {
+            "S": "08:55"
+          },
+          "horaSalida": {
+            "S": "18:01"
+          },
+          "horarioIngreso": {
+            "S": "09:00"
+          },
+          "horarioSalida": {
+            "S": "18:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "546"
+          },
+          "registradoEn": {
+            "S": "2026-10-06T08:55:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T003#2026-10-07"
+          },
+          "trabajadorId": {
+            "S": "T003"
+          },
+          "fecha": {
+            "S": "2026-10-07"
+          },
+          "trabajadorNombre": {
+            "S": "María Fernanda Quispe Huamán"
+          },
+          "area": {
+            "S": "Comercialización"
+          },
+          "sede": {
+            "S": "Oficinas Administrativas San Isidro"
+          },
+          "horaIngreso": {
+            "S": "08:55"
+          },
+          "horaSalida": {
+            "S": "18:01"
+          },
+          "horarioIngreso": {
+            "S": "09:00"
+          },
+          "horarioSalida": {
+            "S": "18:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "546"
+          },
+          "registradoEn": {
+            "S": "2026-10-07T08:55:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T003#2026-10-08"
+          },
+          "trabajadorId": {
+            "S": "T003"
+          },
+          "fecha": {
+            "S": "2026-10-08"
+          },
+          "trabajadorNombre": {
+            "S": "María Fernanda Quispe Huamán"
+          },
+          "area": {
+            "S": "Comercialización"
+          },
+          "sede": {
+            "S": "Oficinas Administrativas San Isidro"
+          },
+          "horaIngreso": {
+            "S": "08:55"
+          },
+          "horaSalida": {
+            "S": "18:01"
+          },
+          "horarioIngreso": {
+            "S": "09:00"
+          },
+          "horarioSalida": {
+            "S": "18:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "546"
+          },
+          "registradoEn": {
+            "S": "2026-10-08T08:55:00-05:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T003#2026-10-09"
+          },
+          "trabajadorId": {
+            "S": "T003"
+          },
+          "fecha": {
+            "S": "2026-10-09"
+          },
+          "trabajadorNombre": {
+            "S": "María Fernanda Quispe Huamán"
+          },
+          "area": {
+            "S": "Comercialización"
+          },
+          "sede": {
+            "S": "Oficinas Administrativas San Isidro"
+          },
+          "horaIngreso": {
+            "S": "08:55"
+          },
+          "horaSalida": {
+            "S": "18:01"
+          },
+          "horarioIngreso": {
+            "S": "09:00"
+          },
+          "horarioSalida": {
+            "S": "18:00"
+          },
+          "estado": {
+            "S": "A_TIEMPO"
+          },
+          "minutosTardanza": {
+            "N": "0"
+          },
+          "minutosTrabajados": {
+            "N": "546"
+          },
+          "registradoEn": {
+            "S": "2026-10-09T08:55:00-05:00"
+          }
+        }
+      }
+    }
+  ]
+}

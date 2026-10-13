@@ -1,0 +1,268 @@
+{
+  "Trabajadores": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T001"
+          },
+          "dni": {
+            "S": "47891230"
+          },
+          "passwordHash": {
+            "S": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+          },
+          "rol": {
+            "S": "TRABAJADOR"
+          },
+          "estado": {
+            "S": "ACTIVO"
+          },
+          "nombres": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "cargo": {
+            "S": "Operador de Montacargas"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "correo": {
+            "S": "juan.perez@huanca.pe"
+          },
+          "supervisor": {
+            "S": "Ing. Marcos Silva"
+          },
+          "fechaIngresoEmpresa": {
+            "S": "2021-03-15"
+          },
+          "fechaRegistro": {
+            "S": "2026-10-01"
+          },
+          "horaIngreso": {
+            "S": "08:00"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horaSalidaSabado": {
+            "S": "13:00"
+          },
+          "toleranciaMin": {
+            "N": "10"
+          },
+          "refrigerio": {
+            "S": "13:00 - 14:00"
+          },
+          "turno": {
+            "S": "Turno A - Mañana"
+          },
+          "regimen": {
+            "S": "Régimen General 48 horas semanales"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T002"
+          },
+          "dni": {
+            "S": "45512378"
+          },
+          "passwordHash": {
+            "S": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+          },
+          "rol": {
+            "S": "TRABAJADOR"
+          },
+          "estado": {
+            "S": "ACTIVO"
+          },
+          "nombres": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "cargo": {
+            "S": "Auxiliar de Almacén"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "sede": {
+            "S": "Almacén Central Lurín"
+          },
+          "correo": {
+            "S": "carlos.mendoza@huanca.pe"
+          },
+          "supervisor": {
+            "S": "Ing. Marcos Silva"
+          },
+          "fechaIngresoEmpresa": {
+            "S": "2023-06-01"
+          },
+          "fechaRegistro": {
+            "S": "2026-10-01"
+          },
+          "horaIngreso": {
+            "S": "08:00"
+          },
+          "horaSalida": {
+            "S": "17:00"
+          },
+          "horaSalidaSabado": {
+            "S": "13:00"
+          },
+          "toleranciaMin": {
+            "N": "10"
+          },
+          "refrigerio": {
+            "S": "13:00 - 14:00"
+          },
+          "turno": {
+            "S": "Turno A - Mañana"
+          },
+          "regimen": {
+            "S": "Régimen General 48 horas semanales"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "T003"
+          },
+          "dni": {
+            "S": "70123456"
+          },
+          "passwordHash": {
+            "S": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+          },
+          "rol": {
+            "S": "TRABAJADOR"
+          },
+          "estado": {
+            "S": "ACTIVO"
+          },
+          "nombres": {
+            "S": "María Fernanda Quispe Huamán"
+          },
+          "cargo": {
+            "S": "Asistente Comercial"
+          },
+          "area": {
+            "S": "Comercialización"
+          },
+          "sede": {
+            "S": "Oficinas Administrativas San Isidro"
+          },
+          "correo": {
+            "S": "maria.quispe@huanca.pe"
+          },
+          "supervisor": {
+            "S": "Lic. Carmen Morales"
+          },
+          "fechaIngresoEmpresa": {
+            "S": "2022-01-10"
+          },
+          "fechaRegistro": {
+            "S": "2026-10-01"
+          },
+          "horaIngreso": {
+            "S": "09:00"
+          },
+          "horaSalida": {
+            "S": "18:00"
+          },
+          "horaSalidaSabado": {
+            "NULL": true
+          },
+          "toleranciaMin": {
+            "N": "10"
+          },
+          "refrigerio": {
+            "S": "13:00 - 14:00"
+          },
+          "turno": {
+            "S": "Turno Administrativo"
+          },
+          "regimen": {
+            "S": "Régimen General 48 horas semanales"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "A001"
+          },
+          "dni": {
+            "S": "11111111"
+          },
+          "passwordHash": {
+            "S": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9"
+          },
+          "rol": {
+            "S": "ADMIN"
+          },
+          "estado": {
+            "S": "ACTIVO"
+          },
+          "nombres": {
+            "S": "Carmen Morales Díaz"
+          },
+          "cargo": {
+            "S": "Jefa de Recursos Humanos"
+          },
+          "area": {
+            "S": "Recursos Humanos"
+          },
+          "sede": {
+            "S": "Oficinas Administrativas San Isidro"
+          },
+          "correo": {
+            "S": "carmen.morales@huanca.pe"
+          },
+          "supervisor": {
+            "S": "Gerencia General"
+          },
+          "fechaIngresoEmpresa": {
+            "S": "2019-08-01"
+          },
+          "fechaRegistro": {
+            "S": "2026-10-01"
+          },
+          "horaIngreso": {
+            "S": "09:00"
+          },
+          "horaSalida": {
+            "S": "18:00"
+          },
+          "horaSalidaSabado": {
+            "NULL": true
+          },
+          "toleranciaMin": {
+            "N": "10"
+          },
+          "refrigerio": {
+            "S": "13:00 - 14:00"
+          },
+          "turno": {
+            "S": "Turno Administrativo"
+          },
+          "regimen": {
+            "S": "Régimen General 48 horas semanales"
+          }
+        }
+      }
+    }
+  ]
+}

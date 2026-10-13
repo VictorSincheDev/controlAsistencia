@@ -1,0 +1,139 @@
+{
+  "Permisos": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "P001"
+          },
+          "codigo": {
+            "S": "SOL-2026-00441"
+          },
+          "trabajadorId": {
+            "S": "T001"
+          },
+          "trabajadorNombre": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "tipo": {
+            "S": "Permiso Médico / Cita EsSalud"
+          },
+          "fechaInicio": {
+            "S": "2026-10-03"
+          },
+          "fechaFin": {
+            "S": "2026-10-03"
+          },
+          "motivo": {
+            "S": "Cita médica en EsSalud. Se adjunta constancia de atención."
+          },
+          "estado": {
+            "S": "APROBADO"
+          },
+          "observacion": {
+            "S": "Certificado validado por RRHH"
+          },
+          "revisadoPor": {
+            "S": "Carmen Morales Díaz"
+          },
+          "fechaSolicitud": {
+            "S": "2026-10-01T10:15:00.000Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "P002"
+          },
+          "codigo": {
+            "S": "SOL-2026-00452"
+          },
+          "trabajadorId": {
+            "S": "T001"
+          },
+          "trabajadorNombre": {
+            "S": "Juan Carlos Pérez Mendoza"
+          },
+          "area": {
+            "S": "Logística y Almacén"
+          },
+          "tipo": {
+            "S": "Permiso Particular"
+          },
+          "fechaInicio": {
+            "S": "2026-10-16"
+          },
+          "fechaFin": {
+            "S": "2026-10-16"
+          },
+          "motivo": {
+            "S": "Trámite personal en RENIEC."
+          },
+          "estado": {
+            "S": "PENDIENTE"
+          },
+          "observacion": {
+            "NULL": true
+          },
+          "revisadoPor": {
+            "NULL": true
+          },
+          "fechaSolicitud": {
+            "S": "2026-10-09T15:40:00.000Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "P003"
+          },
+          "codigo": {
+            "S": "SOL-2026-00398"
+          },
+          "trabajadorId": {
+            "S": "T002"
+          },
+          "trabajadorNombre": {
+            "S": "Carlos Mendoza Ríos"
+          },
+          "area": {
+            "S": "Operaciones Almacén Lima"
+          },
+          "tipo": {
+            "S": "Permiso Particular"
+          },
+          "fechaInicio": {
+            "S": "2026-09-28"
+          },
+          "fechaFin": {
+            "S": "2026-09-28"
+          },
+          "motivo": {
+            "S": "Asuntos familiares."
+          },
+          "estado": {
+            "S": "RECHAZADO"
+          },
+          "observacion": {
+            "S": "No procede por coincidir con cierre mensual de inventario."
+          },
+          "revisadoPor": {
+            "S": "Carmen Morales Díaz"
+          },
+          "fechaSolicitud": {
+            "S": "2026-09-25T09:00:00.000Z"
+          }
+        }
+      }
+    }
+  ]
+}
