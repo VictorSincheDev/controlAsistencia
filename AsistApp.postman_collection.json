@@ -1,0 +1,390 @@
+{
+  "info": {
+    "name": "AsistApp - Grupo 04",
+    "description": "Pruebas de las 3 APIs de AsistApp (Lambda Python + DynamoDB)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "url_trabajadores",
+      "value": "https://3zel8b8aak.execute-api.us-east-1.amazonaws.com"
+    },
+    {
+      "key": "url_asistencias",
+      "value": "https://7eah03ia4j.execute-api.us-east-1.amazonaws.com"
+    },
+    {
+      "key": "url_permisos",
+      "value": "https://g5w81kw0p2.execute-api.us-east-1.amazonaws.com"
+    }
+  ],
+  "item": [
+    {
+      "name": "1. Trabajadores",
+      "item": [
+        {
+          "name": "login (HU01)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{url_trabajadores}}/login",
+              "host": [
+                "{{url_trabajadores}}"
+              ],
+              "path": [
+                "login"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"dni\": \"47891230\",\n  \"password\": \"123456\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "login administradora (HU01)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{url_trabajadores}}/login",
+              "host": [
+                "{{url_trabajadores}}"
+              ],
+              "path": [
+                "login"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"dni\": \"11111111\",\n  \"password\": \"admin123\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "obtener trabajador / horario (HU07)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url_trabajadores}}/trabajadores/T001",
+              "host": [
+                "{{url_trabajadores}}"
+              ],
+              "path": [
+                "trabajadores",
+                "T001"
+              ]
+            },
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Asistencias",
+      "item": [
+        {
+          "name": "registrar ingreso (HU02)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{url_asistencias}}/asistencias/ingreso",
+              "host": [
+                "{{url_asistencias}}"
+              ],
+              "path": [
+                "asistencias",
+                "ingreso"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"trabajadorId\": \"T002\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "registrar salida (HU03)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{url_asistencias}}/asistencias/salida",
+              "host": [
+                "{{url_asistencias}}"
+              ],
+              "path": [
+                "asistencias",
+                "salida"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"trabajadorId\": \"T002\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "asistencia de hoy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url_asistencias}}/asistencias/hoy/T002",
+              "host": [
+                "{{url_asistencias}}"
+              ],
+              "path": [
+                "asistencias",
+                "hoy",
+                "T002"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "historial de un trabajador (HU04/HU05)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url_asistencias}}/asistencias/trabajador/T001",
+              "host": [
+                "{{url_asistencias}}"
+              ],
+              "path": [
+                "asistencias",
+                "trabajador",
+                "T001"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "listar todas - admin (HU09)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url_asistencias}}/asistencias",
+              "host": [
+                "{{url_asistencias}}"
+              ],
+              "path": [
+                "asistencias"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "ausencias (HU06)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url_asistencias}}/ausencias/T001",
+              "host": [
+                "{{url_asistencias}}"
+              ],
+              "path": [
+                "ausencias",
+                "T001"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "reporte - admin (HU10)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url_asistencias}}/reportes/2026-10-01/2026-10-31",
+              "host": [
+                "{{url_asistencias}}"
+              ],
+              "path": [
+                "reportes",
+                "2026-10-01",
+                "2026-10-31"
+              ]
+            },
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Permisos",
+      "item": [
+        {
+          "name": "listar tipos de permiso",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url_permisos}}/tipos-permiso",
+              "host": [
+                "{{url_permisos}}"
+              ],
+              "path": [
+                "tipos-permiso"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "listar todos - admin",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url_permisos}}/permisos",
+              "host": [
+                "{{url_permisos}}"
+              ],
+              "path": [
+                "permisos"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "permisos de un trabajador (HU08)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url_permisos}}/permisos/trabajador/T001",
+              "host": [
+                "{{url_permisos}}"
+              ],
+              "path": [
+                "permisos",
+                "trabajador",
+                "T001"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "insertar permiso (HU08)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{url_permisos}}/permisos",
+              "host": [
+                "{{url_permisos}}"
+              ],
+              "path": [
+                "permisos"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"trabajadorId\": \"T001\",\n  \"tipo\": \"Permiso Particular\",\n  \"fechaInicio\": \"2026-10-20\",\n  \"fechaFin\": \"2026-10-20\",\n  \"motivo\": \"Trámite en el banco\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "aprobar / rechazar permiso - admin",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{url_permisos}}/permisos/P002",
+              "host": [
+                "{{url_permisos}}"
+              ],
+              "path": [
+                "permisos",
+                "P002"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"estado\": \"APROBADO\",\n  \"observacion\": \"Aprobado por RRHH\",\n  \"revisadoPor\": \"Carmen Morales Díaz\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
