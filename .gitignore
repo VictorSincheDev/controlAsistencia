@@ -1,0 +1,15 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+.kotlin/
+
+# Configuración local (ruta del SDK de cada PC)
+local.properties
+
+# Sistema
+.DS_Store
+Thumbs.db
